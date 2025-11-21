@@ -1,0 +1,28 @@
+.card {
+    height: 250px;
+    width: 500px;
+    border-style: solid;
+    border-color: rgb(35, 12, 45);
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* separa texto arriba y botón abajo */
+}
+
+.contenedorCard {
+    margin: 1%;
+
+}
+.cards-container {
+  display: flex;
+  justify-content: center; /* centra las cards */
+  gap: 20px; /* espacio entre cards */
+  margin-top: 50px;
+}
+.card-text {
+  padding: 10px;
+}
+
+.card-button {
+  margin-top: 15px;
+}

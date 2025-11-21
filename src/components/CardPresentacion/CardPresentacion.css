@@ -1,0 +1,14 @@
+.cardPresentacion {
+    height: 250px;
+    width: 1100px;
+    border-style: solid;
+    border-color: rgb(35, 12, 45);
+    text-align: center; 
+}
+
+.contenedorCardPresentacion {
+    margin: 2%;
+    justify-items: center;
+    justify-content: center;
+
+}

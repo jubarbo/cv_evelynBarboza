@@ -1,0 +1,17 @@
+.buttonClass {
+    height: 15%;
+    width: 70%;
+    border-color: rgb(64, 9, 82);
+    text-align: center;
+    font-family: 'Gill Sans';
+    color: rgb(64, 9, 82);
+    background-color: rgb(237, 213, 246);
+    margin: 2%;
+    
+    
+}
+.buttonClass:hover {
+    color: rgb(237, 213, 246);
+    filter: drop-shadow(0 0 5px #8608bc);
+    background-color: rgb(64, 9, 82);
+}
