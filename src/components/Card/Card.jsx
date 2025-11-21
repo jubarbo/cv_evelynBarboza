@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../Card/Card.css";
 import Button from "../Button/Button";
 
-const Card = ({ textCard, titulo, txtBtn }) => {
+const Card = ({ textCard, titulo, txtBtn, children }) => {
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
@@ -26,6 +26,7 @@ const Card = ({ textCard, titulo, txtBtn }) => {
         <div className="card-button">
           <Button text={txtBtn} onClick={handleClick} />
         </div>
+        {children}
       </section>
     </>
   );

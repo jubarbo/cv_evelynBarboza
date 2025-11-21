@@ -52,7 +52,12 @@ function App() {
             titulo="Experiencias Laborales"
             textCard="model text, and a search for lorem ipsum will uncover many web sites still in t"
             txtBtn="Ver super mucho más..."
-          ></Card>
+          >
+            <h2>
+              Fijate como acá tengo esta etiqueta que recibo como children,
+              puedo tener más cosas, incluso otros componentes.{" "}
+            </h2>
+          </Card>
         </div>
       </div>
       <div className="contenedorCardPresentacion">
